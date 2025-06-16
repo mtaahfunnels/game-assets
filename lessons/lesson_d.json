@@ -2,27 +2,30 @@
   "id": "lesson_d",
   "title": "Sound: D",
   "story_text": [
-    "This is the story for the sound 'd'.",
-    "We use 'd' in many words.",
-    "Let's learn to listen and read with 'd'!"
+    "Dex the dog digs a big hole in Dad's garden.",
+    "Danny the duck dances with delight as the daisies sway.",
+    "Dan plays drums loudly during dinner.",
+    "Donuts disappear when Danny comes near.",
+    "A deer darts down the dusty road.",
+    "Dina draws ducks diving deep."
+  ],
+  "story_images": [
+    "https://raw.githubusercontent.com/mtaahfunnels/game-assets/main/images/lesson_d_0.png",
+    "https://raw.githubusercontent.com/mtaahfunnels/game-assets/main/images/lesson_d_1.png",
+    "",
+    "",
+    "",
+    ""
   ],
   "questions": [
     {
       "question": "Which letter sound is this lesson about?",
-      "choices": [
-        "D",
-        "Z",
-        "M"
-      ],
+      "choices": ["D", "Z", "M"],
       "answer": "D"
     },
     {
       "question": "Can you think of a word with the sound 'd'?",
-      "choices": [
-        "Yes",
-        "No",
-        "Maybe"
-      ],
+      "choices": ["Yes", "No", "Maybe"],
       "answer": "Yes"
     }
   ]
