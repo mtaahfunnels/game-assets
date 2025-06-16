@@ -1,0 +1,29 @@
+{
+  "id": "lesson_o",
+  "title": "Sound: O",
+  "story_text": [
+    "This is the story for the sound 'o'.",
+    "We use 'o' in many words.",
+    "Let's learn to listen and read with 'o'!"
+  ],
+  "questions": [
+    {
+      "question": "Which letter sound is this lesson about?",
+      "choices": [
+        "O",
+        "Z",
+        "M"
+      ],
+      "answer": "O"
+    },
+    {
+      "question": "Can you think of a word with the sound 'o'?",
+      "choices": [
+        "Yes",
+        "No",
+        "Maybe"
+      ],
+      "answer": "Yes"
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Reading Game</title>
+  <link rel="stylesheet" href="style.css?v=2" /> <!-- Cache busting -->
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f0f8ff;
+      padding: 20px;
+      line-height: 1.6;
+    }
+
+    #game {
+      max-width: 800px;
+      margin: auto;
+      background: #ffffff;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+    }
+
+    h1, h2 {
+      color: #333;
+    }
+
+    .story-block {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 20px;
+    }
+
+    .story-block p {
+      width: 100%;
+      background: #f9f9f9;
+      padding: 12px;
+      border-left: 4px solid #4caf50;
+      cursor: pointer;
+      font-size: 18px;
+      border-radius: 6px;
+    }
+
+    .story-img {
+      width: 100%;
+      max-width: 600px;
+      height: auto;
+      border-radius: 12px;
+      box-shadow: 0 0 12px rgba(0, 0, 0, 0.15);
+    }
+
+    .narrator-button {
+      margin-bottom: 20px;
+      background: #007BFF;
+      color: white;
+      border: none;
+      padding: 10px 16px;
+      border-radius: 6px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    .story-line:hover {
+      background: #e8f4ff;
+    }
+
+    .question-block {
+      margin-top: 15px;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      background: #f9f9f9;
+    }
+
+    .question-block button {
+      margin: 4px;
+      padding: 8px 14px;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      background: #eee;
+      transition: background 0.3s;
+    }
+
+    .question-block button:hover {
+      background: #ddd;
+    }
+
+    .word {
+      padding: 2px 4px;
+      border-radius: 4px;
+      transition: background 0.2s ease;
+    }
+  </style>
+</head>
+<body>
+  <div id="game">
+    <h1>Reading Game</h1>
+    <div id="story"></div>
+    <div id="questions"></div>
+  </div>
+
+  <script src="game.js"></script>
+</body>
+</html>

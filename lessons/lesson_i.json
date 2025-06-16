@@ -1,0 +1,31 @@
+{
+  "id": "i",
+  "story_text": [
+    "Iggy the iguana sits on a big, pink picnic blanket.",
+    "She likes to sip her icy, minty drink in the midday sun."
+  ],
+  "story_images": [
+    "Iggy the iguana on a big, pink picnic blanket under a sunny sky.",
+    "Iggy sipping an icy, minty drink with a happy smile on her face."
+  ],
+  "questions": [
+    {
+      "question": "What color is the picnic blanket?",
+      "choices": [
+        "Blue",
+        "Pink",
+        "Green"
+      ],
+      "answer": "Pink"
+    },
+    {
+      "question": "What does Iggy like to sip?",
+      "choices": [
+        "A hot chocolate",
+        "A minty drink",
+        "A lemonade"
+      ],
+      "answer": "A minty drink"
+    }
+  ]
+}

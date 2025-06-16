@@ -1,0 +1,31 @@
+{
+  "id": "air",
+  "story_text": [
+    "Claire and her bear sat on a chair and looked up at the sky to watch the colorful hot air balloons rising in the air.",
+    "They felt the cool air and noticed a pair of birds building a nest in a big tree nearby."
+  ],
+  "story_images": [
+    "Claire and her teddy bear sitting on a wooden chair in a grassy field, watching vibrant hot air balloons floating up in the sky.",
+    "A gentle breeze ruffling the leaves of a large tree with two birds busy building a nest, as Claire and her bear watch from below."
+  ],
+  "questions": [
+    {
+      "question": "What did Claire and her bear see in the sky?",
+      "choices": [
+        "Airplanes",
+        "Hot air balloons",
+        "Kites"
+      ],
+      "answer": "Hot air balloons"
+    },
+    {
+      "question": "What did the pair of birds do?",
+      "choices": [
+        "Sing songs",
+        "Build a nest",
+        "Find worms"
+      ],
+      "answer": "Build a nest"
+    }
+  ]
+}

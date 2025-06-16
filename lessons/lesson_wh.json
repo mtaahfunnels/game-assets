@@ -1,0 +1,31 @@
+{
+  "id": "wh",
+  "story_text": [
+    "Whiskers the cat wondered where the whistling sound was coming from.",
+    "When he peeked outside, he saw Wheeler the owl whirling on his swing."
+  ],
+  "story_images": [
+    "A curious cat with whiskers looking puzzled, surrounded by question marks, as the background shows notes depicting whistling sounds.",
+    "An owl named Wheeler with large, expressive eyes, swinging on a wooden swing hung from a tree branch, looking quite happy in daylight."
+  ],
+  "questions": [
+    {
+      "question": "What sound was Whiskers the cat curious about?",
+      "choices": [
+        "A barking sound",
+        "A whistling sound",
+        "A meowing sound"
+      ],
+      "answer": "A whistling sound"
+    },
+    {
+      "question": "Who did Whiskers see when he looked outside?",
+      "choices": [
+        "A dog",
+        "A squirrel",
+        "An owl"
+      ],
+      "answer": "An owl"
+    }
+  ]
+}

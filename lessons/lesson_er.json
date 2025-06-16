@@ -1,0 +1,31 @@
+{
+  "id": "er",
+  "story_text": [
+    "A cheerful baker named Mr. Turner made the best butter tarts in the town.",
+    "Every customer loved his work, and they often said his desserts were a real wonder."
+  ],
+  "story_images": [
+    "A smiling baker with a chef's hat and apron stands proudly in a bakery, holding a tray of golden butter tarts.",
+    "A group of happy customers sitting at a table, enjoying the delicious butter tarts and giving thumbs up."
+  ],
+  "questions": [
+    {
+      "question": "What is the name of the baker?",
+      "choices": [
+        "Mr. Turner",
+        "Mr. Baker",
+        "Mr. Cook"
+      ],
+      "answer": "Mr. Turner"
+    },
+    {
+      "question": "What do the customers think of the desserts?",
+      "choices": [
+        "They are awful.",
+        "They are a wonder.",
+        "They are boring."
+      ],
+      "answer": "They are a wonder."
+    }
+  ]
+}

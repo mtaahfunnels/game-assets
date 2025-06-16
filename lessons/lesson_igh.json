@@ -1,0 +1,31 @@
+{
+  "id": "igh",
+  "story_text": [
+    "The bright light from the night sky made the birds fly high.",
+    "A tiny knight waved goodbye with a big smile as he saw the kite in flight."
+  ],
+  "story_images": [
+    "An illustration of a night sky with bright stars and birds flying high.",
+    "A small knight waving goodbye with a big smile while a colorful kite flies in the sky."
+  ],
+  "questions": [
+    {
+      "question": "What made the birds fly high?",
+      "choices": [
+        "The bright light",
+        "The loud noise",
+        "The windy day"
+      ],
+      "answer": "The bright light"
+    },
+    {
+      "question": "What did the knight see in flight?",
+      "choices": [
+        "A bird",
+        "A plane",
+        "A kite"
+      ],
+      "answer": "A kite"
+    }
+  ]
+}

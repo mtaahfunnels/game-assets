@@ -1,0 +1,31 @@
+{
+  "id": "n",
+  "story_text": [
+    "Nina the ninja loves to nap under the big, nutty pine tree.",
+    "One sunny morning, she noticed Nancy the rabbit nibbling on a nut nearby."
+  ],
+  "story_images": [
+    "A ninja girl named Nina is happily napping under a large pine tree with lots of nuts around.",
+    "A cute rabbit named Nancy is nibbling on a nut under the sun, with Nina observing from her spot."
+  ],
+  "questions": [
+    {
+      "question": "Where does Nina love to nap?",
+      "choices": [
+        "In a house",
+        "Under the pine tree",
+        "On a mountain"
+      ],
+      "answer": "Under the pine tree"
+    },
+    {
+      "question": "What was Nancy the rabbit doing?",
+      "choices": [
+        "Sleeping",
+        "Running",
+        "Nibbling on a nut"
+      ],
+      "answer": "Nibbling on a nut"
+    }
+  ]
+}

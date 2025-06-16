@@ -1,0 +1,31 @@
+{
+  "id": "ue",
+  "story_text": [
+    "Blue Sue was on a quest to find the true hue of the sky.",
+    "She knew a clue was hidden in the dew on the grass under the morning sun."
+  ],
+  "story_images": [
+    "A girl named Sue wearing a blue dress, looking up at the sky with a thoughtful expression.",
+    "A close-up view of dew drops on green grass with the morning sun shining in the background."
+  ],
+  "questions": [
+    {
+      "question": "What color dress is Sue wearing?",
+      "choices": [
+        "Red",
+        "Blue",
+        "Green"
+      ],
+      "answer": "Blue"
+    },
+    {
+      "question": "Where did Sue think the clue was hidden?",
+      "choices": [
+        "In the sea",
+        "On a tree",
+        "In the dew on the grass"
+      ],
+      "answer": "In the dew on the grass"
+    }
+  ]
+}

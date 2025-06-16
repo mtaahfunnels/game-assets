@@ -1,0 +1,31 @@
+{
+  "id": "ou",
+  "story_text": [
+    "A young mouse found a brown house and decided to live there.",
+    "Soon, the mouse heard a loud sound outside and saw a round cloud in the sky."
+  ],
+  "story_images": [
+    "A small mouse looking at a cozy, brown house with curiosity.",
+    "The mouse gazing up at a big, fluffy round cloud with a surprised expression."
+  ],
+  "questions": [
+    {
+      "question": "What did the mouse find?",
+      "choices": [
+        "A cheese",
+        "A cat",
+        "A house"
+      ],
+      "answer": "A house"
+    },
+    {
+      "question": "What did the mouse see in the sky?",
+      "choices": [
+        "A star",
+        "A round cloud",
+        "A bird"
+      ],
+      "answer": "A round cloud"
+    }
+  ]
+}

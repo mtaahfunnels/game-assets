@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Lesson Preview</title>
+  <style>
+    body { font-family: sans-serif; max-width: 600px; margin: auto; padding: 20px; }
+    img { width: 150px; height: 150px; object-fit: contain; }
+    .word { display: flex; align-items: center; margin-bottom: 10px; }
+    .word span { margin-left: 10px; font-weight: bold; }
+  </style>
+</head>
+<body>
+  <h1>Lesson Preview</h1>
+  <div id="app">Loading lesson...</div>
+
+  <script>
+    fetch('./output/output_lesson.json')
+      .then(res => res.json())
+      .then(data => {
+        const app = document.getElementById('app');
+        app.innerHTML = `
+          <h2>Phoneme: ${data.phoneme}</h2>
+          <p><strong>Intro:</strong> ${data.intro_text}</p>
+          <p><strong>Follow-up Question:</strong> ${data.follow_up_question}</p>
+          <p><strong>Story:</strong> ${data.story}</p>
+          <h3>Vocab Words</h3>
+          ${data.vocab_words.map(w =>
+            `<div class="word"><img src="${w.image_url}" alt="${w.word}"><span>${w.word}</span></div>`
+          ).join('')}
+        `;
+      });
+  </script>
+</body>
+</html>

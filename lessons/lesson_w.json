@@ -1,0 +1,31 @@
+{
+  "id": "w",
+  "story_text": [
+    "Wendy the walrus went to the water to wash.",
+    "While waiting, she waved at Willy the whale."
+  ],
+  "story_images": [
+    "A walrus named Wendy playing near the water, splashing around as she washes.",
+    "Wendy the walrus waving to a friendly whale named Willy who is swimming nearby."
+  ],
+  "questions": [
+    {
+      "question": "What did Wendy the walrus do at the water?",
+      "choices": [
+        "She washed.",
+        "She walked.",
+        "She whispered."
+      ],
+      "answer": "She washed."
+    },
+    {
+      "question": "Who did Wendy wave at while waiting?",
+      "choices": [
+        "Walter the wolf.",
+        "Willy the whale.",
+        "Wanda the worm."
+      ],
+      "answer": "Willy the whale."
+    }
+  ]
+}

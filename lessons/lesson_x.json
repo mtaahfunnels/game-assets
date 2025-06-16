@@ -1,0 +1,31 @@
+{
+  "id": "x",
+  "story_text": [
+    "Max the fox loves to play with his red box filled with shiny rocks.",
+    "He finds a big X on the map, marking the spot for hidden treasure in the woods."
+  ],
+  "story_images": [
+    "A fox named Max joyfully playing with a red box filled with colorful, shiny rocks.",
+    "A map with a big red X drawn on it, showing a path through the woods to a hidden treasure spot."
+  ],
+  "questions": [
+    {
+      "question": "What does Max the fox love to play with?",
+      "choices": [
+        "A yellow hat",
+        "A red box",
+        "A blue ball"
+      ],
+      "answer": "A red box"
+    },
+    {
+      "question": "What does the big X on the map mark?",
+      "choices": [
+        "A hidden cave",
+        "A treehouse",
+        "A hidden treasure"
+      ],
+      "answer": "A hidden treasure"
+    }
+  ]
+}

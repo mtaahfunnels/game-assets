@@ -1,0 +1,31 @@
+{
+  "id": "l",
+  "story_text": [
+    "Lucy the lamb loves to leap over little logs in the lush green field.",
+    "She laughs loudly as she lands on a soft layer of leaves."
+  ],
+  "story_images": [
+    "A fluffy lamb named Lucy is happily leaping over small logs surrounded by a lush green field.",
+    "Lucy the lamb is shown laughing joyfully as she lands on a pile of colorful autumn leaves."
+  ],
+  "questions": [
+    {
+      "question": "What does Lucy the lamb love to do?",
+      "choices": [
+        "Leap over little logs",
+        "Lounge in the sun",
+        "Look for lunch"
+      ],
+      "answer": "Leap over little logs"
+    },
+    {
+      "question": "Where does Lucy land?",
+      "choices": [
+        "On a soft layer of leaves",
+        "On a sandy beach",
+        "In a lily pond"
+      ],
+      "answer": "On a soft layer of leaves"
+    }
+  ]
+}

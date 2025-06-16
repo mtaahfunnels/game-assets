@@ -1,0 +1,31 @@
+{
+  "id": "ar",
+  "story_text": [
+    "Farmer Mark parked his car in the market and started selling jars of jam.",
+    "A little dog named Sparky barked happily as it ran around the park."
+  ],
+  "story_images": [
+    "A farmer with a hat, standing next to a car filled with jars of jam at a market.",
+    "A small dog playfully barking and running around in a green park."
+  ],
+  "questions": [
+    {
+      "question": "What did Farmer Mark do after parking his car?",
+      "choices": [
+        "He went to sleep.",
+        "He sold jars of jam.",
+        "He walked his dog."
+      ],
+      "answer": "He sold jars of jam."
+    },
+    {
+      "question": "What is the name of the dog in the story?",
+      "choices": [
+        "Charlie",
+        "Sparky",
+        "Max"
+      ],
+      "answer": "Sparky"
+    }
+  ]
+}

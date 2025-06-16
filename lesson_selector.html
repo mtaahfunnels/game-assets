@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Select a Lesson</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    button {
+      margin: 6px;
+      padding: 12px;
+      font-size: 16px;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+    .done {
+      background-color: #4caf50;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <h1>🎯 Choose a Sound Lesson</h1>
+  <div id="lesson-list"></div>
+
+  <script>
+    const phonemes = [
+      "a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l",
+      "m", "n", "o", "p", "qu", "r", "s", "t", "u", "v", "w", "x",
+      "y", "z", "sh", "ch", "th", "wh", "ee", "ai", "ou", "ow", "ar",
+      "or", "er", "oy", "oi", "igh", "ue", "air", "ear"
+    ];
+
+    const container = document.getElementById("lesson-list");
+
+    phonemes.forEach((p) => {
+      const lessonId = `lesson_${p}`;
+      const btn = document.createElement("button");
+      const completed = localStorage.getItem(`completed_${lessonId}`);
+      btn.textContent = `🔊 "${p.toUpperCase()}" ${completed ? "✅" : ""}`;
+      btn.className = completed ? "done" : "";
+      btn.onclick = () => {
+        window.location.href = `game.html?lesson=${lessonId}.json`;
+      };
+      container.appendChild(btn);
+    });
+  </script>
+</body>
+</html>

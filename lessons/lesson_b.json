@@ -1,0 +1,31 @@
+{
+  "id": "b",
+  "story_text": [
+    "Billy the bear loves to blow big blue bubbles by the bay.",
+    "His best friend, Bonnie the bunny, brings him a bright red balloon."
+  ],
+  "story_images": [
+    "A bear named Billy is blowing big blue bubbles at the edge of a bay.",
+    "A bunny named Bonnie is handing a bright red balloon to Billy the bear."
+  ],
+  "questions": [
+    {
+      "question": "What does Billy the bear love to blow?",
+      "choices": [
+        "Bright red balloons",
+        "Big blue bubbles",
+        "Brown bags"
+      ],
+      "answer": "Big blue bubbles"
+    },
+    {
+      "question": "Who is Bonnie?",
+      "choices": [
+        "Billy's sister",
+        "Billy's friend",
+        "Billy's teacher"
+      ],
+      "answer": "Billy's friend"
+    }
+  ]
+}

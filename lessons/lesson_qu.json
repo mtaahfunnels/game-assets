@@ -1,0 +1,31 @@
+{
+  "id": "qu",
+  "story_text": [
+    "A little duck named Queenie found a quiet spot by the quaint lake to take a quick nap.",
+    "Suddenly, Queenie heard a quirky quack and saw her friend Quentin with a new quilt for their picnic."
+  ],
+  "story_images": [
+    "A small duck sitting by a quiet lake surrounded by trees, looking peaceful and ready to nap.",
+    "An excited duck holding a colorful quilt, with a puzzled look on another duck's face, both near a lake ready for a picnic."
+  ],
+  "questions": [
+    {
+      "question": "What did Queenie find by the lake?",
+      "choices": [
+        "A quiet spot",
+        "A noisy park",
+        "A playground"
+      ],
+      "answer": "A quiet spot"
+    },
+    {
+      "question": "Who brought a quilt to the picnic?",
+      "choices": [
+        "Queenie",
+        "Quentin",
+        "Quinton"
+      ],
+      "answer": "Quentin"
+    }
+  ]
+}

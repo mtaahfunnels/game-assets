@@ -1,0 +1,31 @@
+{
+  "id": "oy",
+  "story_text": [
+    "Roy the boy enjoys playing with his toy robot that makes a lot of noise.",
+    "He shares his toy with his friend Joy, and they both giggle with joy as the robot dances around."
+  ],
+  "story_images": [
+    "A young boy named Roy is happily playing with a colorful toy robot that is making sounds.",
+    "Roy and his friend Joy are laughing and watching as the robot performs a dancing routine."
+  ],
+  "questions": [
+    {
+      "question": "What does Roy like to play with?",
+      "choices": [
+        "A car",
+        "A toy robot",
+        "A doll"
+      ],
+      "answer": "A toy robot"
+    },
+    {
+      "question": "Who does Roy share his toy with?",
+      "choices": [
+        "His friend Tom",
+        "His friend Liz",
+        "His friend Joy"
+      ],
+      "answer": "His friend Joy"
+    }
+  ]
+}

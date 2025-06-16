@@ -1,0 +1,31 @@
+{
+  "id": "h",
+  "story_text": [
+    "Harry the hippo hopped happily through the hills.",
+    "He found a shiny hat and wore it with a huge smile."
+  ],
+  "story_images": [
+    "A happy hippo jumping joyfully up and down hills.",
+    "A hippo wearing a big, shiny hat while smiling broadly."
+  ],
+  "questions": [
+    {
+      "question": "What did Harry the hippo do through the hills?",
+      "choices": [
+        "He hung around.",
+        "He hopped happily.",
+        "He hid quietly."
+      ],
+      "answer": "He hopped happily."
+    },
+    {
+      "question": "What did Harry find?",
+      "choices": [
+        "A hambone.",
+        "A high chair.",
+        "A shiny hat."
+      ],
+      "answer": "A shiny hat."
+    }
+  ]
+}

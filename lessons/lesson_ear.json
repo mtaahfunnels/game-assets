@@ -1,0 +1,31 @@
+{
+  "id": "ear",
+  "story_text": [
+    "Dear Bear had a big, fluffy, white ear that could hear everything in the forest.",
+    "One clear day, near the river, Bear heard his friend Deer calling to him from over here."
+  ],
+  "story_images": [
+    "A big, fluffy, white bear with large ears standing in a forest, surrounded by trees and listening intently.",
+    "A gentle river flowing with a deer on one side and Bear on the other, with Deer calling out to Bear."
+  ],
+  "questions": [
+    {
+      "question": "What color is Bear's ear?",
+      "choices": [
+        "White",
+        "Brown",
+        "Black"
+      ],
+      "answer": "White"
+    },
+    {
+      "question": "Who was calling Bear?",
+      "choices": [
+        "A bird",
+        "Deer",
+        "A rabbit"
+      ],
+      "answer": "Deer"
+    }
+  ]
+}

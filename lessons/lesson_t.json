@@ -1,0 +1,31 @@
+{
+  "id": "t",
+  "story_text": [
+    "Tom the turtle took a trip to the tall tree.",
+    "He played tag with Tim, the tiny tiger, under the tree."
+  ],
+  "story_images": [
+    "A turtle named Tom near a tall tree with a suitcase as if ready for a trip.",
+    "A turtle playing tag with a small tiger underneath a large tree."
+  ],
+  "questions": [
+    {
+      "question": "Who took a trip in the story?",
+      "choices": [
+        "Tom the turtle",
+        "Tim the tiny tiger",
+        "Tat the cat"
+      ],
+      "answer": "Tom the turtle"
+    },
+    {
+      "question": "Where did Tom and Tim play tag?",
+      "choices": [
+        "On the tree",
+        "Under the tree",
+        "In the sea"
+      ],
+      "answer": "Under the tree"
+    }
+  ]
+}

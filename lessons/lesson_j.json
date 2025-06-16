@@ -1,0 +1,31 @@
+{
+  "id": "j",
+  "story_text": [
+    "Jimmy the joyful jellyfish jumps and jives in the jiggly sea.",
+    "Justine, the jaguar, joins Jimmy for a joyful jamboree."
+  ],
+  "story_images": [
+    "A happy jellyfish named Jimmy jumping and dancing in a wavy, vibrant ocean.",
+    "A playful jaguar named Justine joining the jellyfish Jimmy in a lively sea party."
+  ],
+  "questions": [
+    {
+      "question": "Who is the joyful jellyfish?",
+      "choices": [
+        "Jason",
+        "Jimmy",
+        "Jordan"
+      ],
+      "answer": "Jimmy"
+    },
+    {
+      "question": "What animal joins Jimmy for the jamboree?",
+      "choices": [
+        "A jaguar",
+        "A giraffe",
+        "A jellybean"
+      ],
+      "answer": "A jaguar"
+    }
+  ]
+}

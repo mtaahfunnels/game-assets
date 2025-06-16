@@ -1,0 +1,31 @@
+{
+  "id": "a",
+  "story_text": [
+    "Anna has a big red apple and a small ant on her hand.",
+    "The ant wants to taste the apple, and Anna is happy to share."
+  ],
+  "story_images": [
+    "A little girl named Anna holding a bright red apple with a tiny black ant on her hand.",
+    "Anna smiling as the tiny ant climbs towards the shiny red apple."
+  ],
+  "questions": [
+    {
+      "question": "What does Anna have on her hand?",
+      "choices": [
+        "A book",
+        "A red apple and an ant",
+        "A pencil"
+      ],
+      "answer": "A red apple and an ant"
+    },
+    {
+      "question": "Who wants to taste the apple?",
+      "choices": [
+        "Anna",
+        "The ant",
+        "A cat"
+      ],
+      "answer": "The ant"
+    }
+  ]
+}

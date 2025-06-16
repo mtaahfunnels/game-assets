@@ -1,0 +1,31 @@
+{
+  "id": "r",
+  "story_text": [
+    "Ricky the rabbit raced around the red rose garden.",
+    "His friend Rosie the raccoon watched him run in circles."
+  ],
+  "story_images": [
+    "A gray rabbit with big ears is running fast around a garden filled with bright red roses.",
+    "A curious raccoon sitting on the grass, watching the rabbit as it runs in big circles around the garden."
+  ],
+  "questions": [
+    {
+      "question": "What kind of animal is Ricky?",
+      "choices": [
+        "Rabbit",
+        "Raccoon",
+        "Redbird"
+      ],
+      "answer": "Rabbit"
+    },
+    {
+      "question": "What color roses are in the garden?",
+      "choices": [
+        "Yellow",
+        "Red",
+        "Blue"
+      ],
+      "answer": "Red"
+    }
+  ]
+}

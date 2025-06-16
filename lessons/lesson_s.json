@@ -1,0 +1,31 @@
+{
+  "id": "s",
+  "story_text": [
+    "Sammy the snake slithered silently through the sunny sand.",
+    "He stopped to sit on a smooth stone under a shady tree."
+  ],
+  "story_images": [
+    "A green snake named Sammy is quietly slithering across golden sand in bright sunshine.",
+    "Sammy the snake is resting on a large, smooth stone beneath a tree with lots of shade."
+  ],
+  "questions": [
+    {
+      "question": "What did Sammy the snake do in the sunny sand?",
+      "choices": [
+        "Skipped",
+        "Slithered",
+        "Sang"
+      ],
+      "answer": "Slithered"
+    },
+    {
+      "question": "Where did Sammy stop to sit?",
+      "choices": [
+        "On a grassy hill",
+        "On a smooth stone",
+        "In the water"
+      ],
+      "answer": "On a smooth stone"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "id": "ai",
+  "story_text": [
+    "One rainy day, a snail decided to paint its shell with bright colors.",
+    "As the rain stopped, a rainbow appeared, and the snail's shell shone like a tiny gem."
+  ],
+  "story_images": [
+    "A snail slowly moving on a leafy path with a tiny bucket of paint balanced on its back.",
+    "A beautiful rainbow in the sky with the snail proudly showing off its colorful, painted shell."
+  ],
+  "questions": [
+    {
+      "question": "What did the snail decide to do on a rainy day?",
+      "choices": [
+        "Sleep under a leaf",
+        "Paint its shell",
+        "Play in the mud"
+      ],
+      "answer": "Paint its shell"
+    },
+    {
+      "question": "What appeared after the rain stopped?",
+      "choices": [
+        "A sunny day",
+        "A rainbow",
+        "A big puddle"
+      ],
+      "answer": "A rainbow"
+    }
+  ]
+}

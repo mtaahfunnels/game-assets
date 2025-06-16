@@ -1,0 +1,31 @@
+{
+  "id": "p",
+  "story_text": [
+    "Penny the penguin loves to pick purple pebbles.",
+    "She puts the pebbles in a pink pouch for her friends."
+  ],
+  "story_images": [
+    "A penguin named Penny holding purple pebbles in her flipper.",
+    "The penguin placing the pebbles into a pink pouch while smiling at her friends."
+  ],
+  "questions": [
+    {
+      "question": "What color pebbles does Penny the penguin like to pick?",
+      "choices": [
+        "Pink",
+        "Purple",
+        "Green"
+      ],
+      "answer": "Purple"
+    },
+    {
+      "question": "Where does Penny put the pebbles?",
+      "choices": [
+        "In a pink pouch",
+        "Under a tree",
+        "In the ocean"
+      ],
+      "answer": "In a pink pouch"
+    }
+  ]
+}

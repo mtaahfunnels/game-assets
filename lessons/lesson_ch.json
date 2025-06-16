@@ -1,0 +1,31 @@
+{
+  "id": "ch",
+  "story_text": [
+    "Chip the chick loves to chase butterflies in the cheerful garden.",
+    "One day, Chip found a shiny chest hidden behind the cherry tree."
+  ],
+  "story_images": [
+    "A small, fluffy chick running with colorful butterflies fluttering around it in a garden full of flowers.",
+    "A curious chick peering at a sparkling chest half-buried beneath a lush cherry tree with bright red cherries."
+  ],
+  "questions": [
+    {
+      "question": "What does Chip the chick love to do?",
+      "choices": [
+        "Chase butterflies",
+        "Hide behind trees",
+        "Eat cherries"
+      ],
+      "answer": "Chase butterflies"
+    },
+    {
+      "question": "What did Chip find in the garden?",
+      "choices": [
+        "A butterfly",
+        "A shiny chest",
+        "A small hut"
+      ],
+      "answer": "A shiny chest"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "id": "z",
+  "story_text": [
+    "Zara the zebra loves to zigzag through the zoo.",
+    "She stops to play with a buzzing bumblebee by the zinnias."
+  ],
+  "story_images": [
+    "A zebra named Zara happily zigzagging through a zoo.",
+    "Zara the zebra playing with a buzzing bumblebee near some colorful zinnias."
+  ],
+  "questions": [
+    {
+      "question": "What does Zara the zebra love to do?",
+      "choices": [
+        "Zigzag through the zoo",
+        "Sleep under a tree",
+        "Swim in a pond"
+      ],
+      "answer": "Zigzag through the zoo"
+    },
+    {
+      "question": "Who does Zara meet by the zinnias?",
+      "choices": [
+        "A lion",
+        "A buzzing bumblebee",
+        "A kangaroo"
+      ],
+      "answer": "A buzzing bumblebee"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "id": "sh",
+  "story_text": [
+    "Shelly the sheep loves to sit by the shiny shore and watch the ships sail.",
+    "One day, Shelly found a shell with shimmering shapes on the sand."
+  ],
+  "story_images": [
+    "A fluffy sheep named Shelly sitting happily near a bright, sunlit shore, with several colorful ships sailing in the background.",
+    "Shelly the sheep examining a beautiful shell with shimmering shapes on a sandy beach, with the ocean in the background."
+  ],
+  "questions": [
+    {
+      "question": "Where does Shelly the sheep love to sit?",
+      "choices": [
+        "By the shiny shore",
+        "In a shady forest",
+        "On a snowy hill"
+      ],
+      "answer": "By the shiny shore"
+    },
+    {
+      "question": "What did Shelly find on the sand?",
+      "choices": [
+        "A sparkling starfish",
+        "A shell with shimmering shapes",
+        "A shiny stone"
+      ],
+      "answer": "A shell with shimmering shapes"
+    }
+  ]
+}

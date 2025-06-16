@@ -1,0 +1,31 @@
+{
+  "id": "m",
+  "story_text": [
+    "Molly the mouse munches on a big, juicy mango in the morning.",
+    "Max the monkey makes marvelous music with his maracas by the merry meadow."
+  ],
+  "story_images": [
+    "A small, gray mouse named Molly holding a large orange mango, sitting under the morning sun.",
+    "A cheerful monkey named Max shaking maracas, surrounded by colorful flowers in a green meadow."
+  ],
+  "questions": [
+    {
+      "question": "What fruit does Molly the mouse munch on?",
+      "choices": [
+        "Melon",
+        "Mango",
+        "Muffin"
+      ],
+      "answer": "Mango"
+    },
+    {
+      "question": "What does Max the monkey make?",
+      "choices": [
+        "Muffins",
+        "Magic",
+        "Music"
+      ],
+      "answer": "Music"
+    }
+  ]
+}

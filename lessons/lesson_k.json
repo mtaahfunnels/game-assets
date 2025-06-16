@@ -1,0 +1,31 @@
+{
+  "id": "k",
+  "story_text": [
+    "Katy the kangaroo kicked a kite up high, and it caught in a tall tree.",
+    "Kevin the koala kindly climbed up and got the kite down with care."
+  ],
+  "story_images": [
+    "A kangaroo named Katy kicking a colorful kite towards the sky, with a tall tree in the background.",
+    "A koala named Kevin climbing a tree to reach the kite tangled in the branches."
+  ],
+  "questions": [
+    {
+      "question": "What did Katy the kangaroo do with the kite?",
+      "choices": [
+        "Kicked it up high",
+        "Buried it",
+        "Painted it"
+      ],
+      "answer": "Kicked it up high"
+    },
+    {
+      "question": "Who helped get the kite down from the tree?",
+      "choices": [
+        "Kevin the koala",
+        "Sam the squirrel",
+        "Lola the llama"
+      ],
+      "answer": "Kevin the koala"
+    }
+  ]
+}

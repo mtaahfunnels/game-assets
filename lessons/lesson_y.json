@@ -1,0 +1,31 @@
+{
+  "id": "y",
+  "story_text": [
+    "In the yard, young Yara found a yellow yo-yo to play with yesterday.",
+    "She yelled joyfully as it swung up and down in the morning sun."
+  ],
+  "story_images": [
+    "A young girl named Yara in her yard holding a yellow yo-yo with flowers around her.",
+    "Yara is happily playing with her yo-yo, the sun shining brightly over the yard."
+  ],
+  "questions": [
+    {
+      "question": "What did Yara find in the yard?",
+      "choices": [
+        "A yellow yo-yo",
+        "A blue balloon",
+        "A red kite"
+      ],
+      "answer": "A yellow yo-yo"
+    },
+    {
+      "question": "How did Yara feel while playing with the yo-yo?",
+      "choices": [
+        "Sad",
+        "Joyful",
+        "Tired"
+      ],
+      "answer": "Joyful"
+    }
+  ]
+}

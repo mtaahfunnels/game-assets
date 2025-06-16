@@ -1,0 +1,31 @@
+{
+  "id": "e",
+  "story_text": [
+    "Eddy the elephant hopped on the big red bed.",
+    "He met Ella, the energetic elk, and they played with Elmo's eggs."
+  ],
+  "story_images": [
+    "An elephant with a name tag 'Eddy' is joyfully jumping on a large, bright red bed inside a bedroom.",
+    "Eddy the elephant is with an elk named Ella, and they are happily playing with colorful eggs labeled 'Elmo's' in a green field."
+  ],
+  "questions": [
+    {
+      "question": "What did Eddy the elephant hop on?",
+      "choices": [
+        "A blue chair",
+        "A green tree",
+        "A big red bed"
+      ],
+      "answer": "A big red bed"
+    },
+    {
+      "question": "Who did Eddy meet while playing?",
+      "choices": [
+        "Ella the elk",
+        "Sam the snake",
+        "Benny the bear"
+      ],
+      "answer": "Ella the elk"
+    }
+  ]
+}

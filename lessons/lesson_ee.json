@@ -1,0 +1,31 @@
+{
+  "id": "ee",
+  "story_text": [
+    "Lee the sheep likes to sleep by the big green tree.",
+    "One breezy evening, Lee dreams of a deep-blue sea with fish that gleam."
+  ],
+  "story_images": [
+    "A fluffy sheep named Lee sleeping peacefully under a large green tree.",
+    "A scene of a peaceful seaside with a smiling Lee dreaming about a deep-blue sea filled with shiny fish."
+  ],
+  "questions": [
+    {
+      "question": "What does Lee the sheep like to do?",
+      "choices": [
+        "Run around",
+        "Sleep by the tree",
+        "Eat cheese"
+      ],
+      "answer": "Sleep by the tree"
+    },
+    {
+      "question": "What does Lee dream about?",
+      "choices": [
+        "A deep-blue sea",
+        "A big pile of leaves",
+        "A street with cars"
+      ],
+      "answer": "A deep-blue sea"
+    }
+  ]
+}

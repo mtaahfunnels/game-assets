@@ -1,0 +1,31 @@
+{
+  "id": "f",
+  "story_text": [
+    "Fiona the fish flips and flutters in the fast-flowing freshwater stream.",
+    "Fred the fox finds a fluffy feather on a foggy forest floor."
+  ],
+  "story_images": [
+    "A colorful fish named Fiona is happily flipping and fluttering in a clear, fast-flowing stream.",
+    "A curious fox named Fred is looking at a fluffy feather lying on the ground in a misty forest."
+  ],
+  "questions": [
+    {
+      "question": "What does Fiona the fish do in the stream?",
+      "choices": [
+        "Flips",
+        "Flies",
+        "Floats"
+      ],
+      "answer": "Flips"
+    },
+    {
+      "question": "What does Fred the fox find in the forest?",
+      "choices": [
+        "A flower",
+        "A feather",
+        "A frog"
+      ],
+      "answer": "A feather"
+    }
+  ]
+}

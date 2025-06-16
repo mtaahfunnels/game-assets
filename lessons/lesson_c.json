@@ -1,0 +1,31 @@
+{
+  "id": "c",
+  "story_text": [
+    "Cathy the cat chased a colorful butterfly across the garden.",
+    "Carl the crab collected colorful shells by the calm sea."
+  ],
+  "story_images": [
+    "A cat named Cathy running after a butterfly in a vibrant garden with flowers around.",
+    "A crab named Carl picking up shiny, colorful shells on a sandy beach by a tranquil sea."
+  ],
+  "questions": [
+    {
+      "question": "What did Cathy the cat chase?",
+      "choices": [
+        "A car",
+        "A colorful butterfly",
+        "A cow"
+      ],
+      "answer": "A colorful butterfly"
+    },
+    {
+      "question": "Where did Carl the crab collect shells?",
+      "choices": [
+        "In the forest",
+        "By the calm sea",
+        "In the backyard"
+      ],
+      "answer": "By the calm sea"
+    }
+  ]
+}

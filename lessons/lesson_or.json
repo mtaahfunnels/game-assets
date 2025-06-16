@@ -1,0 +1,31 @@
+{
+  "id": "or",
+  "story_text": [
+    "Every morning, the little squirrel scampers to the orchard for oranges.",
+    "In the afternoon, he searches for acorns or rests by the shore."
+  ],
+  "story_images": [
+    "A cheerful squirrel carrying an orange in an orchard filled with orange trees.",
+    "The squirrel sitting on the sandy shore with some acorns nearby and looking out at the water."
+  ],
+  "questions": [
+    {
+      "question": "Where does the squirrel go every morning?",
+      "choices": [
+        "To the orchard",
+        "To the river",
+        "To the forest"
+      ],
+      "answer": "To the orchard"
+    },
+    {
+      "question": "What does the squirrel do in the afternoon?",
+      "choices": [
+        "Searches for nuts",
+        "Takes a nap",
+        "Plays with friends"
+      ],
+      "answer": "Searches for nuts"
+    }
+  ]
+}

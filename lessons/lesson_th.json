@@ -1,0 +1,31 @@
+{
+  "id": "th",
+  "story_text": [
+    "In the thick forest, Theo and his friends found a path that led to a throne made of thorns and thick leaves.",
+    "Both Theo and Beth were thrilled with their discovery and thought it was the best thing they had seen."
+  ],
+  "story_images": [
+    "A dense forest with a visible path leading to a throne, surrounded by thorns and thick leaves.",
+    "Theo and Beth looking excitedly at the thorny throne, pointing and smiling at their discovery."
+  ],
+  "questions": [
+    {
+      "question": "Where did Theo and his friends find the path?",
+      "choices": [
+        "In a house",
+        "In the thick forest",
+        "In a city"
+      ],
+      "answer": "In the thick forest"
+    },
+    {
+      "question": "What was Theo and Beth's reaction to the throne?",
+      "choices": [
+        "They were scared",
+        "They were thrilled",
+        "They were bored"
+      ],
+      "answer": "They were thrilled"
+    }
+  ]
+}

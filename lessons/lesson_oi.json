@@ -1,0 +1,31 @@
+{
+  "id": "oi",
+  "story_text": [
+    "Roy the boy found a toy that could make a loud noise.",
+    "He used the toy to join his friends in a joyful play."
+  ],
+  "story_images": [
+    "A young boy named Roy, smiling and holding a colorful toy that is making sound.",
+    "Roy and a group of children playing happily together with the toy in a park."
+  ],
+  "questions": [
+    {
+      "question": "What did Roy find?",
+      "choices": [
+        "A toy",
+        "A book",
+        "A hat"
+      ],
+      "answer": "A toy"
+    },
+    {
+      "question": "How did the toy make Roy feel?",
+      "choices": [
+        "Joyful",
+        "Sad",
+        "Angry"
+      ],
+      "answer": "Joyful"
+    }
+  ]
+}

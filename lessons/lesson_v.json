@@ -1,0 +1,31 @@
+{
+  "id": "v",
+  "story_text": [
+    "Vicky the very vivacious vulture flew over the vibrant valley.",
+    "She visited her friend Victor the vole who lived near a vine."
+  ],
+  "story_images": [
+    "A vulture with a big smile flying over a colorful valley full of flowers and trees.",
+    "A cheerful vole next to a tall vine, waving as the vulture approaches."
+  ],
+  "questions": [
+    {
+      "question": "Who is the vulture in the story?",
+      "choices": [
+        "Vicky",
+        "Victor",
+        "Vivian"
+      ],
+      "answer": "Vicky"
+    },
+    {
+      "question": "Who does Vicky visit in the story?",
+      "choices": [
+        "Victor",
+        "Vince",
+        "Violet"
+      ],
+      "answer": "Victor"
+    }
+  ]
+}

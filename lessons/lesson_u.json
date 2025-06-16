@@ -1,0 +1,31 @@
+{
+  "id": "u",
+  "story_text": [
+    "A bug named Gus loves to hum under the sun.",
+    "One day, Gus found a cup full of yummy nuts."
+  ],
+  "story_images": [
+    "A cheerful bug named Gus sitting under the bright sun, humming happily.",
+    "Gus, the bug, looking surprised and delighted at a cup filled with a variety of nuts."
+  ],
+  "questions": [
+    {
+      "question": "What does Gus love to do under the sun?",
+      "choices": [
+        "Dance",
+        "Hum",
+        "Run"
+      ],
+      "answer": "Hum"
+    },
+    {
+      "question": "What did Gus find in the story?",
+      "choices": [
+        "A hat",
+        "A book",
+        "A cup full of nuts"
+      ],
+      "answer": "A cup full of nuts"
+    }
+  ]
+}

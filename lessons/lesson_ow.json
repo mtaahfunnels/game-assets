@@ -1,0 +1,31 @@
+{
+  "id": "ow",
+  "story_text": [
+    "Owen the brown owl found a yellow crown in the meadow.",
+    "He wore the crown and flew around town, showing it to his friends."
+  ],
+  "story_images": [
+    "A brown owl named Owen is sitting in a sunny meadow with a yellow crown lying in the grass next to him.",
+    "Owen the owl is flying over a small town, proudly wearing his yellow crown on his head."
+  ],
+  "questions": [
+    {
+      "question": "What did Owen the owl find in the meadow?",
+      "choices": [
+        "A yellow crown",
+        "A red balloon",
+        "A blue shoe"
+      ],
+      "answer": "A yellow crown"
+    },
+    {
+      "question": "What did Owen do after finding the crown?",
+      "choices": [
+        "He took a nap.",
+        "He showed it to his friends.",
+        "He hid it under a tree."
+      ],
+      "answer": "He showed it to his friends."
+    }
+  ]
+}

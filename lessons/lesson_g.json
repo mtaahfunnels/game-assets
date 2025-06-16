@@ -1,0 +1,31 @@
+{
+  "id": "g",
+  "story_text": [
+    "Gus the goat giggled as he gobbled green grapes in the garden.",
+    "His friend, Gina the goose, joined him, gliding gracefully across the grass."
+  ],
+  "story_images": [
+    "A happy goat named Gus with a mouthful of green grapes in a lush garden.",
+    "A graceful goose named Gina gliding across a grassy area next to Gus."
+  ],
+  "questions": [
+    {
+      "question": "What is Gus the goat doing in the garden?",
+      "choices": [
+        "Playing with a ball",
+        "Gobbling green grapes",
+        "Sleeping under a tree"
+      ],
+      "answer": "Gobbling green grapes"
+    },
+    {
+      "question": "Who joins Gus in the garden?",
+      "choices": [
+        "A monkey",
+        "A goose named Gina",
+        "A cat named Charlie"
+      ],
+      "answer": "A goose named Gina"
+    }
+  ]
+}
