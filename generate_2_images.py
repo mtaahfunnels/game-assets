@@ -1,49 +1,52 @@
-# generate_2_images.py (Refactored for GitHub upload and JSON auto-update)
-
-import openai
 import os
 import json
-import subprocess
-from pathlib import Path
+import requests
+from dotenv import load_dotenv
+import openai
 
-# === CONFIG ===
-LESSON_FILE = "lessons/lesson_d.json"
-IMAGES_DIR = "assets/images"
-GITHUB_REPO_URL = "https://github.com/mtaahfunnels/game-assets"
-openai.api_key = os.getenv("OPENAI_API_KEY")  # Make sure this is set in your environment
+# Load environment variables from .env
+load_dotenv()
+openai.api_key = os.getenv("OPENAI_API_KEY")
 
-# === PREP ===
-os.makedirs(IMAGES_DIR, exist_ok=True)
-lesson_path = Path(LESSON_FILE)
-
+# Step 1: Load lesson data
+lesson_path = os.path.join("lessons", "lesson_d.json")
 with open(lesson_path, "r", encoding="utf-8") as f:
-    lesson_data = json.load(f)
+    lesson = json.load(f)
 
-# === IMAGE GENERATION ===
-for i, item in enumerate(lesson_data):
-    prompt = f"An illustration of: {item['text']}"
-    print(f"\U0001f3a8 Generating image for line {i}: {prompt}")
-    response = openai.images.generate(prompt=prompt, n=1, size="1024x1024")
-    image_url = response.data[0].url
-    
-    image_name = f"lesson_d_{i}.png"
-    image_path = Path(IMAGES_DIR) / image_name
+words = lesson.get("words", lesson.get("data", []))
+if not isinstance(words, list) or len(words) == 0:
+    raise ValueError("No valid 'words' or 'data' found in lesson JSON.")
 
-    # Download image locally
-    os.system(f"curl -o {image_path} {image_url}")
-    print(f"✅ Saved: {image_path}")
+# Step 2: Prepare output directory
+output_dir = "images"
+os.makedirs(output_dir, exist_ok=True)
 
-    # Update JSON with GitHub raw URL reference
-    lesson_data[i]["image"] = f"https://raw.githubusercontent.com/mtaahfunnels/game-assets/main/{IMAGES_DIR}/{image_name}"
+# Step 3: Generate up to 2 images
+for index, item in enumerate(words[:2]):
+    word_text = item.get("text", str(item)) if isinstance(item, dict) else str(item)
+    prompt = f"An illustration of: {word_text}, kid-friendly, clear and simple, colorful"
 
-# === SAVE UPDATED JSON ===
-with open(lesson_path, "w", encoding="utf-8") as f:
-    json.dump(lesson_data, f, indent=2)
-print("✅ lesson_d.json updated with GitHub raw URLs")
+    print(f"🎨 Generating image for: {word_text}")
 
-# === GIT UPLOAD ===
-print("\U0001f4e4 Uploading to GitHub...")
-os.system("git add .")
-os.system("git commit -m 'Add generated images and update lesson_d.json'")
-os.system("git push origin main")
-print("✅ GitHub upload complete.")
+    try:
+        # Call OpenAI Image API (DALL·E 3)
+        response = openai.images.generate(
+            model="dall-e-3",
+            prompt=prompt,
+            size="1024x1024",
+            quality="standard",
+            n=1,
+        )
+
+        image_url = response.data[0].url
+
+        # Download the image
+        image_data = requests.get(image_url).content
+        image_path = os.path.join(output_dir, f"image_{index+1}.png")
+        with open(image_path, "wb") as f:
+            f.write(image_data)
+
+        print(f"✅ Saved: {image_path}")
+
+    except Exception as e:
+        print(f"❌ Error generating image for '{word_text}': {e}")
