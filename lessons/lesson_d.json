@@ -11,21 +11,25 @@
   ],
   "story_images": [
     "https://raw.githubusercontent.com/mtaahfunnels/game-assets/main/images/lesson_d_0.png",
-    "https://raw.githubusercontent.com/mtaahfunnels/game-assets/main/images/lesson_d_1.png",
-    "",
-    "",
-    "",
-    ""
+    "https://raw.githubusercontent.com/mtaahfunnels/game-assets/main/images/lesson_d_1.png"
   ],
   "questions": [
     {
       "question": "Which letter sound is this lesson about?",
-      "choices": ["D", "Z", "M"],
+      "choices": [
+        "D",
+        "Z",
+        "M"
+      ],
       "answer": "D"
     },
     {
       "question": "Can you think of a word with the sound 'd'?",
-      "choices": ["Yes", "No", "Maybe"],
+      "choices": [
+        "Yes",
+        "No",
+        "Maybe"
+      ],
       "answer": "Yes"
     }
   ]
